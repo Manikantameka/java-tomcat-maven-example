@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-11-117.ec2.internal-releases</name>
+        <url>http://44.203.61.117:8081/artifactory/mudevops</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-11-117.ec2.internal-snapshots</name>
+        <url>http://44.203.61.117:8081/artifactory/mudevops</url>
+    </snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>java-tomcat-maven-example</finalName>
     <plugins>
